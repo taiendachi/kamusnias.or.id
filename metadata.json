@@ -1,0 +1,6 @@
+{
+  "name": "Kamus Bahasa Nias",
+  "description": "Kamus digital interaktif Bahasa Nias - Indonesia - Inggris dengan pencarian kosakata, kategori kata, audio pelafalan, kartu belajar, dan asisten penerjemah bertenaga AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

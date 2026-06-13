@@ -1,0 +1,195 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-ocean: var(--ocean);
+  --color-ocean-deep: var(--ocean-deep);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, serif;
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Nias palette: Putih, Biru Laut, Emas Nias, Abu-abu terang */
+  --background: oklch(0.995 0.003 240);
+  --foreground: oklch(0.18 0.03 240);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.03 240);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.03 240);
+
+  /* Biru Laut */
+  --primary: oklch(0.48 0.13 235);
+  --primary-foreground: oklch(0.985 0 0);
+  --ocean: oklch(0.55 0.13 230);
+  --ocean-deep: oklch(0.32 0.1 240);
+
+  --secondary: oklch(0.96 0.01 235);
+  --secondary-foreground: oklch(0.22 0.04 240);
+
+  /* Abu-abu terang */
+  --muted: oklch(0.965 0.005 240);
+  --muted-foreground: oklch(0.48 0.02 240);
+
+  /* Emas Nias */
+  --gold: oklch(0.78 0.13 82);
+  --gold-foreground: oklch(0.22 0.04 60);
+  --accent: oklch(0.92 0.06 85);
+  --accent-foreground: oklch(0.28 0.05 60);
+
+  --destructive: oklch(0.6 0.22 25);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(0.92 0.01 240);
+  --input: oklch(0.92 0.01 240);
+  --ring: oklch(0.48 0.13 235);
+}
+
+.dark {
+  --background: oklch(0.16 0.02 240);
+  --foreground: oklch(0.97 0.005 240);
+  --card: oklch(0.22 0.03 240);
+  --card-foreground: oklch(0.97 0.005 240);
+  --popover: oklch(0.22 0.03 240);
+  --popover-foreground: oklch(0.97 0.005 240);
+  --primary: oklch(0.72 0.12 220);
+  --primary-foreground: oklch(0.16 0.02 240);
+  --ocean: oklch(0.68 0.12 225);
+  --ocean-deep: oklch(0.45 0.13 235);
+  --secondary: oklch(0.28 0.03 240);
+  --secondary-foreground: oklch(0.97 0.005 240);
+  --muted: oklch(0.26 0.02 240);
+  --muted-foreground: oklch(0.72 0.02 240);
+  --gold: oklch(0.82 0.14 82);
+  --gold-foreground: oklch(0.18 0.04 60);
+  --accent: oklch(0.35 0.06 80);
+  --accent-foreground: oklch(0.95 0.05 85);
+  --destructive: oklch(0.65 0.22 25);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.72 0.12 220);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    font-family: var(--font-display);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+@utility nias-motif-bg {
+  background-image:
+    radial-gradient(
+      circle at 1px 1px,
+      color-mix(in oklab, var(--gold) 35%, transparent) 1px,
+      transparent 0
+    ),
+    linear-gradient(135deg, color-mix(in oklab, var(--ocean) 8%, transparent), transparent 60%);
+  background-size:
+    22px 22px,
+    100% 100%;
+}
+
+@utility gradient-ocean {
+  background-image: linear-gradient(135deg, var(--ocean-deep), var(--ocean));
+}
+
+@utility gradient-gold {
+  background-image: linear-gradient(
+    135deg,
+    color-mix(in oklab, var(--gold) 90%, white),
+    var(--gold)
+  );
+}
+
+@keyframes kn-wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-6deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  45% {
+    transform: rotate(-4deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+}
+@keyframes kn-heart {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.25);
+  }
+  40% {
+    transform: scale(0.95);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+}
+@utility animate-wiggle {
+  animation: kn-wiggle 1.6s ease-in-out infinite;
+  transform-origin: center;
+}
+@utility animate-heart {
+  animation: kn-heart 1.4s ease-in-out infinite;
+  display: inline-block;
+}

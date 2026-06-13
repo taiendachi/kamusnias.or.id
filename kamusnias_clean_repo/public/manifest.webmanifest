@@ -1,0 +1,11 @@
+{
+  "name": "Kamus Nias - Li Niha",
+  "short_name": "Kamus Nias",
+  "description": "Kamus Bahasa Nias (Li Niha) online — terjemahan Indonesia ⇄ Nias",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e6091",
+  "lang": "id",
+  "icons": [{ "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}

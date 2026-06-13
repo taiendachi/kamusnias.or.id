@@ -1,0 +1,1 @@
+export const LOGO_URL = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaxR1jXN5R6loBiRr2Mao46qDY6cMnAeAzaWx-UFx4q4DeDU7y0muQgFZLsTY5PVc6q7XTDAhW_NjveD0qhp11nrFyieXBYSURug7oSQiAWYVr2op1bBRsaqHu51dMTr3TLHUT64UJZ4R4flySb2l01AU4Huet9dASICxmTotTcUiEjExjvDzsTzaYfqY/s1563/kamus%20nias.png";
