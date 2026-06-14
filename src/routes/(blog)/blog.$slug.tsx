@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Layout } from "@/components/Layout";
 import { AdSlot } from "@/components/AdSlot";
 import { BlogContent } from "@/components/BlogContent";
+import { BlogSidebar } from "@/components/BlogSidebar";
 import { SITE } from "@/lib/site-config";
 import { BLOG_POSTS, getPost } from "@/lib/blog";
 import { CalendarDays, ChevronLeft } from "lucide-react";
@@ -99,71 +100,80 @@ function BlogPost() {
   const others = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3);
   return (
     <Layout>
-      <article className="mx-auto max-w-3xl px-4 py-10">
-        <nav className="mb-4 text-sm text-muted-foreground">
-          <Link to="/blog" className="inline-flex items-center gap-1 hover:text-foreground">
-            <ChevronLeft className="h-3 w-3" /> Semua artikel
-          </Link>
-        </nav>
-        <header>
-          <div className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-muted-foreground">
-            <CalendarDays className="h-3 w-3" />
-            <time dateTime={post.date}>
-              {new Date(post.date).toLocaleDateString("id-ID", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}
-            </time>
-            {post.author && <span>· {post.author}</span>}
-          </div>
-          <h1 className="mt-2 font-serif text-3xl font-bold leading-tight md:text-4xl">
-            {post.title}
-          </h1>
-          <p className="mt-3 text-lg text-muted-foreground">{post.description}</p>
-        </header>
+      <div className="mx-auto max-w-6xl px-4 py-8">
+        <div className="grid gap-8 lg:grid-cols-3">
+          <article className="lg:col-span-2 py-2">
+            <nav className="mb-4 text-sm text-muted-foreground">
+              <Link to="/blog" className="inline-flex items-center gap-1 hover:text-foreground">
+                <ChevronLeft className="h-3 w-3" /> Semua artikel
+              </Link>
+            </nav>
+            <header>
+              <div className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-muted-foreground">
+                <CalendarDays className="h-3 w-3" />
+                <time dateTime={post.date}>
+                  {new Date(post.date).toLocaleDateString("id-ID", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric",
+                  })}
+                </time>
+                {post.author && <span>· {post.author}</span>}
+              </div>
+              <h1 className="mt-2 font-serif text-3xl font-bold leading-tight md:text-4xl">
+                {post.title}
+              </h1>
+              <p className="mt-3 text-lg text-muted-foreground">{post.description}</p>
+            </header>
 
-        <AdSlot type="adsense" slot="inArticle" />
+            <AdSlot type="adsense" slot="inArticle" />
 
-        <BlogContent content={post.content} />
+            <BlogContent content={post.content} />
 
-        {post.tags && post.tags.length > 0 && (
-          <div className="mt-8 flex flex-wrap gap-2">
-            {post.tags.map((tg: string) => (
-              <span
-                key={tg}
-                className="rounded-full bg-muted px-3 py-1 text-xs text-muted-foreground"
-              >
-                #{tg}
-              </span>
-            ))}
-          </div>
-        )}
+            {/* Tags section below content */}
+            {post.tags && post.tags.length > 0 && (
+               <div className="mt-8 flex flex-wrap gap-2">
+                 {post.tags.map((tg: string) => (
+                   <span
+                     key={tg}
+                     className="rounded-full bg-muted px-3 py-1 text-xs text-muted-foreground"
+                   >
+                     #{tg}
+                   </span>
+                 ))}
+               </div>
+            )}
 
-        <AdSlot type="mgid" slot="inArticle" />
+            <AdSlot type="mgid" slot="inArticle" />
 
-        {others.length > 0 && (
-          <section className="mt-10 border-t border-border pt-6">
-            <h2 className="font-serif text-xl font-bold">Artikel lainnya</h2>
-            <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-              {others.map((p) => (
-                <li key={p.slug}>
-                  <Link
-                    to="/blog/$slug"
-                    params={{ slug: p.slug }}
-                    className="block rounded-lg border border-border bg-card p-4 hover:border-primary"
-                  >
-                    <div className="font-semibold">{p.title}</div>
-                    <div className="mt-1 line-clamp-2 text-xs text-muted-foreground">
-                      {p.description}
-                    </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </article>
+            {others.length > 0 && (
+               <section className="mt-10 border-t border-border pt-6">
+                 <h2 className="font-serif text-xl font-bold">Artikel lainnya</h2>
+                 <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+                   {others.map((p) => (
+                     <li key={p.slug}>
+                       <Link
+                         to="/blog/$slug"
+                         params={{ slug: p.slug }}
+                         className="block rounded-lg border border-border bg-card p-4 hover:border-primary"
+                       >
+                         <div className="font-semibold">{p.title}</div>
+                         <div className="mt-1 line-clamp-2 text-xs text-muted-foreground">
+                           {p.description}
+                         </div>
+                       </Link>
+                     </li>
+                   ))}
+                 </ul>
+               </section>
+            )}
+          </article>
+
+          <aside className="py-2">
+            <BlogSidebar />
+          </aside>
+        </div>
+      </div>
     </Layout>
   );
 }

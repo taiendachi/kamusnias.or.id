@@ -1,0 +1,31 @@
+{
+  "mainNav": [
+    { "to": "/", "label": "Beranda" },
+    { "to": "/blog", "label": "Blog" },
+    { "to": "/kontak", "label": "Kontak" }
+  ],
+  "footerLinks": {
+    "navigasi": [
+      { "to": "/", "label": "Beranda" },
+      { "to": "/blog", "label": "Blog" },
+      { "to": "/tentang", "label": "Tentang" }
+    ],
+    "halaman": [
+      { "to": "/page/disclaimer", "label": "Disclaimer" },
+      { "to": "/page/privacy-policy", "label": "Privacy Policy" },
+      { "to": "/page/terms-of-service", "label": "Terms of Service" }
+    ],
+    "kontribusi": [
+      { "to": "/saran", "label": "Form Saran Kata" },
+      { "to": "/support", "label": "Dukung Kami" },
+      { "to": "/kontak", "label": "Kontak" }
+    ]
+  },
+  "socialMedia": [
+    { "platform": "Facebook", "url": "https://web.facebook.com/kamusnias", "icon": "Facebook" },
+    { "platform": "Instagram", "url": "https://www.instagram.com/kamusniasorid", "icon": "Instagram" },
+    { "platform": "X (Twitter)", "url": "https://x.com/kamusniascom", "icon": "X" },
+    { "platform": "Pinterest", "url": "https://id.pinterest.com/kamusnias", "icon": "Pinterest" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/kamusnias/", "icon": "Linkedin" }
+  ]
+}

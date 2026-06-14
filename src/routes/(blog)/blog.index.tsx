@@ -4,6 +4,7 @@ import { AdSlot } from "@/components/AdSlot";
 import { SITE } from "@/lib/site-config";
 import { BLOG_POSTS } from "@/lib/blog";
 import { CalendarDays, ArrowRight } from "lucide-react";
+import { BlogSidebar } from "@/components/BlogSidebar";
 
 const title = `Blog — ${SITE.longName}`;
 const desc = `Artikel seputar Bahasa Nias (Li Niha), budaya, dan pembelajaran kosakata di ${SITE.longName}.`;
@@ -53,36 +54,46 @@ function BlogIndex() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 py-8">
-        <ul className="grid gap-5 md:grid-cols-2">
-          {BLOG_POSTS.map((p) => (
-            <li key={p.slug}>
-              <Link
-                to="/blog/$slug"
-                params={{ slug: p.slug }}
-                className="group flex h-full flex-col rounded-xl border border-border bg-card p-5 transition hover:border-primary hover:shadow"
-              >
-                <div className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-muted-foreground">
-                  <CalendarDays className="h-3 w-3" />
-                  {new Date(p.date).toLocaleDateString("id-ID", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })}
-                </div>
-                <h2 className="mt-2 font-serif text-xl font-bold leading-snug group-hover:text-primary">
-                  {p.title}
-                </h2>
-                <p className="mt-2 text-sm text-muted-foreground">{p.description}</p>
-                <span className="mt-auto pt-3 inline-flex items-center gap-1 text-sm font-medium text-primary">
-                  Baca selengkapnya <ArrowRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <div className="mx-auto max-w-6xl px-4 py-4 mt-4">
+        <AdSlot type="adsense" slot="header" label="Header banner" height={90} />
+      </div>
 
-        <AdSlot type="adsense" slot="inArticle" />
+      <section className="mx-auto max-w-6xl px-4 py-4">
+        <div className="grid gap-8 lg:grid-cols-3">
+          <div className="lg:col-span-2">
+            <ul className="grid gap-5 md:grid-cols-2">
+              {BLOG_POSTS.map((p) => (
+                <li key={p.slug}>
+                  <Link
+                    to="/blog/$slug"
+                    params={{ slug: p.slug }}
+                    className="group flex h-full flex-col rounded-xl border border-border bg-card p-5 transition hover:border-primary hover:shadow"
+                  >
+                    <div className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-muted-foreground">
+                      <CalendarDays className="h-3 w-3" />
+                      {new Date(p.date).toLocaleDateString("id-ID", {
+                        day: "numeric",
+                        month: "long",
+                        year: "numeric",
+                      })}
+                    </div>
+                    <h2 className="mt-2 font-serif text-xl font-bold leading-snug group-hover:text-primary">
+                      {p.title}
+                    </h2>
+                    <p className="mt-2 text-sm text-muted-foreground">{p.description}</p>
+                    <span className="mt-auto pt-3 inline-flex items-center gap-1 text-sm font-medium text-primary">
+                      Baca selengkapnya <ArrowRight className="h-3.5 w-3.5" />
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+          <div>
+            <BlogSidebar />
+          </div>
+        </div>
       </section>
     </Layout>
   );

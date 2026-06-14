@@ -54,14 +54,19 @@ function SupportPage() {
           </p>
           <div className="mt-6 flex justify-center items-center gap-6">
             <div className="flex flex-col items-center gap-2">
-              <div className="h-16 w-16 bg-[#00AED6] rounded-xl flex items-center justify-center text-white font-bold text-xl">DANA</div>
+              <div className="h-16 w-16 bg-[#00AED6] rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                DANA
+              </div>
             </div>
             <div className="flex flex-col items-center gap-2">
-              <div className="h-16 w-16 bg-[#00A5CF] rounded-xl flex items-center justify-center text-white font-bold text-xl">GoPay</div>
+              <div className="h-16 w-16 bg-[#00A5CF] rounded-xl flex items-center justify-center text-white font-bold text-xl">
+                GoPay
+              </div>
             </div>
           </div>
           <p className="mt-6 text-xs text-muted-foreground">
-            Masukkan nomor yang tertera di samping pada aplikasi e-wallet Anda. Atas nama: <strong className="text-foreground">{SITE.support.accountName}</strong>.
+            Masukkan nomor yang tertera di samping pada aplikasi e-wallet Anda. Atas nama:{" "}
+            <strong className="text-foreground">{SITE.support.accountName}</strong>.
           </p>
         </div>
 

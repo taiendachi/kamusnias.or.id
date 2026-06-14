@@ -1,32 +1,5 @@
 import { Facebook, Instagram, Linkedin } from "lucide-react";
-
-const SOCIALS = [
-  {
-    name: "Facebook",
-    url: "https://web.facebook.com/kamusnias",
-    icon: Facebook,
-    color: "hover:bg-[#1877F2]",
-  },
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/kamusniasorid",
-    icon: Instagram,
-    color: "hover:bg-gradient-to-br hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]",
-  },
-  { name: "X (Twitter)", url: "https://x.com/kamusniascom", icon: XIcon, color: "hover:bg-black" },
-  {
-    name: "Pinterest",
-    url: "https://id.pinterest.com/kamusnias",
-    icon: PinterestIcon,
-    color: "hover:bg-[#E60023]",
-  },
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/kamusnias/",
-    icon: Linkedin,
-    color: "hover:bg-[#0A66C2]",
-  },
-] as const;
+import menuData from "../../data/menu.json";
 
 function XIcon({ className = "" }: { className?: string }) {
   return (
@@ -43,6 +16,14 @@ function PinterestIcon({ className = "" }: { className?: string }) {
   );
 }
 
+const ICON_MAP: Record<string, any> = {
+  Facebook,
+  Instagram,
+  Linkedin,
+  X: XIcon,
+  Pinterest: PinterestIcon,
+};
+
 export function SocialFollow() {
   return (
     <section className="mx-auto max-w-3xl px-4 py-10 text-center">
@@ -51,17 +32,17 @@ export function SocialFollow() {
         Dapatkan pembaruan kosakata dan artikel terbaru tentang Bahasa & Budaya Nias.
       </p>
       <ul className="mt-6 flex flex-wrap items-center justify-center gap-3">
-        {SOCIALS.map((s) => {
-          const Icon = s.icon;
+        {menuData.socialMedia.map((s) => {
+          const Icon = ICON_MAP[s.icon] || Facebook;
           return (
-            <li key={s.name}>
+            <li key={s.platform}>
               <a
                 href={s.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Ikuti ${s.name}`}
-                title={s.name}
-                className={`group grid h-12 w-12 place-items-center rounded-full border border-border bg-card text-foreground shadow-sm transition hover:scale-110 hover:text-white hover:shadow-md ${s.color}`}
+                aria-label={`Ikuti ${s.platform}`}
+                title={s.platform}
+                className={`group grid h-12 w-12 place-items-center rounded-full border border-border bg-card text-foreground shadow-sm transition hover:scale-110 hover:shadow-md`}
               >
                 <Icon className="h-5 w-5 transition group-hover:scale-110" />
               </a>

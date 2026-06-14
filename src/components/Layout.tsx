@@ -6,18 +6,13 @@ import { useI18n, toggleTheme } from "@/lib/i18n";
 import { SearchBox } from "./SearchBox";
 import { StickyMobileAd } from "./AdSlot";
 import { LOGO_URL } from "@/assets/logo";
-
-const NAV = [
-  { to: "/", label: "Beranda" },
-  { to: "/blog", label: "Blog" },
-  { to: "/kontak", label: "Kontak" },
-] as const;
+import menuData from "../../data/menu.json";
 
 export function Header() {
   const { lang, setLang } = useI18n();
   const [isDark, setIsDark] = useState(false);
   const [open, setOpen] = useState(false);
-  
+
   const pathname = useLocation({ select: (s) => s.pathname });
   const showSearch = pathname.startsWith("/blog");
 
@@ -36,11 +31,9 @@ export function Header() {
           />
           <span className="sr-only">{SITE.longName}</span>
         </Link>
-        <div className="hidden flex-1 md:block">
-          {showSearch && <SearchBox />}
-        </div>
+        <div className="hidden flex-1 md:block">{showSearch && <SearchBox />}</div>
         <nav className="ml-auto hidden items-center gap-0.5 text-sm font-medium lg:flex">
-          {NAV.map((n) => (
+          {menuData.mainNav.map((n) => (
             <Link
               key={n.to}
               to={n.to}
@@ -93,7 +86,7 @@ export function Header() {
       {open && (
         <nav className="border-t border-border bg-background px-4 py-2 lg:hidden">
           <ul className="flex flex-col text-sm font-medium">
-            {NAV.map((n) => (
+            {menuData.mainNav.map((n) => (
               <li key={n.to}>
                 <Link
                   to={n.to}
@@ -136,49 +129,45 @@ export function Header() {
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-border bg-muted/40">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-4">
-        <div className="md:col-span-2">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 grid-cols-2 md:grid-cols-5">
+        <div className="col-span-2 md:col-span-2">
           <img src={LOGO_URL} alt={SITE.longName} className="h-10 w-auto" loading="lazy" />
           <p className="mt-3 max-w-md text-sm text-muted-foreground">{SITE.description}</p>
         </div>
-        <div>
+        <div className="col-span-1">
           <div className="text-sm font-semibold">Navigasi</div>
           <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
-            <li>
-              <Link to="/" className="hover:text-foreground">
-                Beranda
-              </Link>
-            </li>
-            <li>
-              <Link to="/blog" className="hover:text-foreground">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link to="/tentang" className="hover:text-foreground">
-                Tentang
-              </Link>
-            </li>
+            {menuData.footerLinks.navigasi.map((n) => (
+              <li key={n.to}>
+                <Link to={n.to} className="hover:text-foreground">
+                  {n.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-        <div>
+        <div className="col-span-1">
+          <div className="text-sm font-semibold">Halaman</div>
+          <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
+            {menuData.footerLinks.halaman.map((n) => (
+              <li key={n.to}>
+                <Link to={n.to} className="hover:text-foreground">
+                  {n.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="col-span-2 md:col-span-1">
           <div className="text-sm font-semibold">Kontribusi</div>
           <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
-            <li>
-              <Link to="/saran" className="hover:text-foreground">
-                Form Saran Kata
-              </Link>
-            </li>
-            <li>
-              <Link to="/support" className="hover:text-foreground">
-                Dukung Kami
-              </Link>
-            </li>
-            <li>
-              <Link to="/kontak" className="hover:text-foreground">
-                Kontak
-              </Link>
-            </li>
+            {menuData.footerLinks.kontribusi.map((n) => (
+              <li key={n.to}>
+                <Link to={n.to} className="hover:text-foreground">
+                  {n.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
