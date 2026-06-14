@@ -4,6 +4,7 @@ import { Layout } from "@/components/Layout";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import Markdown, { Components } from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { Helmet } from "react-helmet-async";
 
 export const Route = createFileRoute("/page/$slug")({
@@ -22,6 +23,13 @@ function PageComponent() {
 
   const components: Components = {
     img: ({ node, ...props }) => <img {...props} loading="lazy" />,
+    table: ({ node, ...props }) => (
+      <div className="my-5 overflow-x-auto rounded-lg border border-border">
+        <table {...props} className="w-full border-collapse text-sm m-0" />
+      </div>
+    ),
+    th: ({ node, ...props }) => <th {...props} className="border-b border-border px-3 py-2 text-left font-semibold bg-muted/70 whitespace-nowrap" />,
+    td: ({ node, ...props }) => <td {...props} className="border-b border-border px-3 py-2 align-top last:border-b-0 whitespace-nowrap md:whitespace-normal" />,
   };
 
   return (
@@ -50,7 +58,7 @@ function PageComponent() {
         </div>
 
         <article className="prose prose-gray max-w-none dark:prose-invert prose-headings:font-serif prose-h2:text-2xl prose-h3:text-xl prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl md:prose-lg">
-          <Markdown components={components}>{page.content}</Markdown>
+          <Markdown remarkPlugins={[remarkGfm]} components={components}>{page.content}</Markdown>
         </article>
       </main>
     </Layout>

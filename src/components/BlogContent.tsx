@@ -1,4 +1,5 @@
 import Markdown, { Components } from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export function BlogContent({ content }: { content: string }) {
   const components: Components = {
@@ -14,17 +15,17 @@ export function BlogContent({ content }: { content: string }) {
     blockquote: ({ node, ...props }) => <blockquote {...props} className="my-5 border-l-4 border-primary bg-primary/5 px-4 py-3 italic text-foreground/85" />,
     table: ({ node, ...props }) => (
       <div className="my-5 overflow-x-auto rounded-lg border border-border">
-        <table {...props} className="w-full border-collapse text-sm" />
+        <table {...props} className="w-full border-collapse text-sm m-0" />
       </div>
     ),
-    th: ({ node, ...props }) => <th {...props} className="border-b border-border px-3 py-2 text-left font-semibold bg-muted/70" />,
-    td: ({ node, ...props }) => <td {...props} className="border-b border-border px-3 py-2 align-top last:border-b-0" />,
+    th: ({ node, ...props }) => <th {...props} className="border-b border-border px-3 py-2 text-left font-semibold bg-muted/70 whitespace-nowrap" />,
+    td: ({ node, ...props }) => <td {...props} className="border-b border-border px-3 py-2 align-top last:border-b-0 whitespace-nowrap md:whitespace-normal" />,
     code: ({ node, ...props }) => <code {...props} className="rounded bg-muted px-1.5 py-0.5 font-mono text-[0.9em]" />,
   };
 
   return (
     <div className="mt-6 max-w-none text-[0.95rem] text-foreground/90 md:text-base">
-      <Markdown components={components}>{content}</Markdown>
+      <Markdown remarkPlugins={[remarkGfm]} components={components}>{content}</Markdown>
     </div>
   );
 }

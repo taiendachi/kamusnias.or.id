@@ -1,10 +1,8 @@
 ---
-title: "Disclaimer (Sanggahan)"
 slug: "disclaimer"
-date: "2026-06-14T07:41:39.223Z"
-author: "Tim Redaksi"
-type: "page"
+title: "Disclaimer (Sanggahan)"
 description: "Pernyataan sanggahan penting mengenai penggunaan informasi, layanan, dan materi terjemahan di Kamus Nias."
+updatedAt: "2024-05-20"
 ---
 
 ## Sanggahan Umum tentang Layanan Kamus Nias
@@ -18,7 +16,6 @@ Meskipun demikian, kami *tidak memberikan jaminan apa pun* terkait kelengkapan, 
 Bahasa daerah, seperti bahasa Nias, memiliki keunikan budaya yang sangat kaya.
 
 #### Konteks Penggunaan
-
 Terjemahan yang disediakan mungkin tidak mewakili dengan sempurna konteks bahasa asli dan nuansa budaya lokal. Pengguna yang memanfaatkannya untuk kepentingan komunikasi formal, tulisan akademis, atau korespondensi resmi sangat disarankan untuk melakukan verifikasi lebih lanjut dari penutur asli atau sumber literatur lainnya.
 
 ## Tautan Keluar (External Links)
@@ -32,7 +29,6 @@ Situs kami mungkin memuat berbagai tautan hiper teks (hyperlinks) ke platform ek
 Keberadaan tautan pihak ketiga tidak selalu menyiratkan bahwa kami menyetujui, mendukung, atau terafiliasi dengan keseluruhan konten yang mereka sajikan.
 
 ### Perubahan Konten
-
 Sifat pemilik situs serta konten eksternal yang ditautkan dapat berubah sewaktu-waktu. Kami berusaha menangani apabila terdapat laporan mengenai tautan rusak, namun kami tidak bertanggung jawab jika penyedia pihak ketiga tersebut mengubah kebijakannya.
 
 ## Persetujuan Pengguna
@@ -40,5 +36,5 @@ Sifat pemilik situs serta konten eksternal yang ditautkan dapat berubah sewaktu-
 Dengan terus menggunakan situs kami, Anda secara otomatis menyetujui Ketentuan Sanggahan (Disclaimer) kami secara meyakinkan. 
 
 ### Tanggal Pembaruan Sanggahan
+Sanggahan ini terakhir diperbarui pada **20 Mei 2024**. Apabila terdapat perubahan pada struktur pelindungan situs maupun rujukan informasi, perubahan tersebut akan langsung diaplikasikan dan diinformasikan secara jelas pada halaman ini.
 
-Apabila terdapat perubahan pada struktur pelindungan situs maupun rujukan informasi, perubahan tersebut akan langsung diaplikasikan dan diinformasikan secara jelas pada halaman ini.
