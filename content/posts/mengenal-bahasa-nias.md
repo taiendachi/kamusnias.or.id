@@ -53,8 +53,11 @@ Dokumentasi Bahasa Nias mulai berkembang pesat pada abad ke-19 ketika para misio
 Beberapa tonggak penting dalam perkembangan tulisan Bahasa Nias antara lain:
 
 - Tahun 1874 diterbitkan terjemahan Injil Lukas dalam Bahasa Nias.
+
 - Tahun 1892 diterbitkan Perjanjian Baru dalam Bahasa Nias.
+
 - Tahun 1913 diterbitkan Alkitab lengkap dalam Bahasa Nias.
+
 - Berbagai kamus dan tata bahasa kemudian disusun untuk mendukung pendidikan dan pelayanan gereja.
 
 Perkembangan tersebut berperan besar dalam mempertahankan keberadaan Bahasa Nias hingga era modern.
@@ -70,9 +73,13 @@ Salah satu ciri paling terkenal dari Li Niha adalah pola suku kata terbuka (open
 Contoh kata dalam Bahasa Nias:
 
 - Ya'ahowu
+
 - Ono
+
 - Ama
+
 - Ina
+
 - Banua
 
 Karakteristik ini membuat Bahasa Nias terdengar mengalir, lembut, dan berirama saat diucapkan.
@@ -102,8 +109,11 @@ Secara umum, Bahasa Nias dibagi menjadi tiga dialek utama. Meskipun terdapat per
 Wilayah penggunaan:
 
 - Gunungsitoli
+
 - Alasa
+
 - Lahewa
+
 - Lotu dan sekitarnya
 
 Ciri khas:
@@ -115,7 +125,9 @@ Menjadi dialek yang paling banyak digunakan dalam literatur. Sering dianggap seb
 Wilayah penggunaan:
 
 - Sirombu
+
 - Mandrehe
+
 - Moro'o dan sekitarnya
 
 Ciri khas:
@@ -127,8 +139,11 @@ Menjadi jembatan antara dialek utara dan selatan. Memiliki variasi kosakata yang
 Wilayah penggunaan:
 
 - Teluk Dalam
+
 - Gomo
+
 - Lahusa
+
 - Kepulauan Batu
 
 Ciri khas:
@@ -154,16 +169,20 @@ Di era digital dan globalisasi, Bahasa Indonesia menjadi bahasa utama dalam pend
 
 Akibatnya, penggunaan Bahasa Nias di kalangan generasi muda mulai mengalami penurunan di beberapa wilayah.
 
-Salah satu upaya tersebut adalah hadirnya **[bahasanias.or.id](https://bahasanias.or.id/)**, sebuah platform yang menyediakan kamus dan berbagai informasi edukatif seputar Bahasa Nias (Li Niha).
+Salah satu upaya tersebut adalah hadirnya **[kamusnias.or.id](https://bahasanias.or.id/)**, sebuah platform yang menyediakan kamus dan berbagai informasi edukatif seputar Bahasa Nias (Li Niha).
 
 Meski demikian, Li Niha masih menjadi bahasa yang hidup dan digunakan dalam keluarga, kegiatan adat, upacara budaya, serta kehidupan keagamaan masyarakat Nias.
 
 Pelestarian Bahasa Nias dapat dilakukan melalui:
 
 - Penggunaan Bahasa Nias dalam keluarga.
+
 - Pengajaran bahasa daerah kepada anak-anak.
+
 - Dokumentasi kosakata dan sastra lisan.
+
 - Pengembangan kamus digital dan aplikasi pembelajaran.
+
 - Publikasi artikel, buku, dan konten digital berbahasa Nias.
 
 ## Peran Kamus Nias dalam Pelestarian Li Niha
