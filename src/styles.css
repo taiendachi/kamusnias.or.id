@@ -109,12 +109,14 @@
   }
   html {
     font-family: var(--font-display);
+    overflow-x: hidden;
   }
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-feature-settings: "cv11", "ss01";
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   h1,
   h2,
@@ -192,4 +194,52 @@
 @utility animate-heart {
   animation: kn-heart 1.4s ease-in-out infinite;
   display: inline-block;
+}
+
+@layer utilities {
+  .responsive-table-container {
+    @apply my-5 w-full rounded-lg border border-border bg-card overflow-hidden;
+  }
+
+  .responsive-table {
+    @apply w-full border-collapse text-sm text-left m-0;
+    table-layout: fixed;
+  }
+
+  .responsive-table th,
+  .responsive-table td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    padding: 8px;
+  }
+
+  /* Table styling for mobile (<= 768px) */
+  @media (max-width: 768px) {
+    .responsive-table {
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .responsive-table th,
+    .responsive-table td {
+      font-size: 14px;
+      padding: 6px;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+    
+    /* Ensure other elements are responsive */
+    .prose img,
+    .prose iframe,
+    .prose video,
+    .prose embed {
+      max-width: 100%;
+      height: auto;
+    }
+    .prose pre {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+  }
 }

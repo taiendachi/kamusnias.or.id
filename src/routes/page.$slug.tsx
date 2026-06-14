@@ -22,14 +22,20 @@ function PageComponent() {
   const page = Route.useLoaderData();
 
   const components: Components = {
-    img: ({ node, ...props }) => <img {...props} loading="lazy" />,
+    img: ({ node, ...props }) => <img {...props} loading="lazy" className="rounded-xl max-w-full h-auto" />,
+    a: ({ node, ...props }) => <a {...props} className="break-words" />,
+    p: ({ node, ...props }) => <p {...props} className="break-words" />,
+    ul: ({ node, ...props }) => <ul {...props} className="break-words" />,
+    ol: ({ node, ...props }) => <ol {...props} className="break-words" />,
+    blockquote: ({ node, ...props }) => <blockquote {...props} className="break-words" />,
     table: ({ node, ...props }) => (
-      <div className="my-5 overflow-x-auto rounded-lg border border-border">
-        <table {...props} className="w-full border-collapse text-sm m-0" />
+      <div className="responsive-table-container">
+        <table {...props} className="responsive-table" />
       </div>
     ),
-    th: ({ node, ...props }) => <th {...props} className="border-b border-border px-3 py-2 text-left font-semibold bg-muted/70 whitespace-nowrap" />,
-    td: ({ node, ...props }) => <td {...props} className="border-b border-border px-3 py-2 align-top last:border-b-0 whitespace-nowrap md:whitespace-normal" />,
+    th: ({ node, ...props }) => <th {...props} className="border-b border-border px-4 py-3 text-left font-semibold bg-muted/70" />,
+    td: ({ node, ...props }) => <td {...props} className="border-b border-border px-4 py-3 align-top last:border-b-0" />,
+    code: ({ node, ...props }) => <code {...props} className="break-all" />,
   };
 
   return (
@@ -57,8 +63,10 @@ function PageComponent() {
           )}
         </div>
 
-        <article className="prose prose-gray max-w-none dark:prose-invert prose-headings:font-serif prose-h2:text-2xl prose-h3:text-xl prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl md:prose-lg">
-          <Markdown remarkPlugins={[remarkGfm]} components={components}>{page.content}</Markdown>
+        <article className="prose prose-gray w-full min-w-0 max-w-full break-words dark:prose-invert prose-headings:font-serif prose-h2:text-2xl prose-h3:text-xl prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl md:prose-lg">
+          <div className="overflow-x-hidden md:overflow-x-visible w-full max-w-full">
+            <Markdown remarkPlugins={[remarkGfm]} components={components}>{page.content}</Markdown>
+          </div>
         </article>
       </main>
     </Layout>
