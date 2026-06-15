@@ -3,7 +3,8 @@ import remarkGfm from "remark-gfm";
 
 export function BlogContent({ content }: { content: string }) {
   const components: Components = {
-    img: ({ node, ...props }) => <img {...props} loading="lazy" className="rounded-xl max-w-full h-auto my-6 overflow-hidden object-contain" />,
+    // Penambahan referrerPolicy="no-referrer" ada di baris img ini:
+    img: ({ node, ...props }) => <img {...props} referrerPolicy="no-referrer" loading="lazy" className="rounded-xl max-w-full h-auto my-6 overflow-hidden object-contain" />,
     a: ({ node, ...props }) => <a {...props} className="text-primary hover:underline hover:text-primary/80" />,
     h2: ({ node, ...props }) => <h2 {...props} className="mt-10 border-b border-border pb-2 font-serif text-2xl font-bold text-foreground md:text-[1.7rem]" />,
     h3: ({ node, ...props }) => <h3 {...props} className="mt-7 text-lg font-bold text-foreground md:text-xl" />,
