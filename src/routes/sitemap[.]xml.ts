@@ -3,7 +3,7 @@ import type {} from "@tanstack/react-start";
 import { fetchDictionary } from "@/lib/dictionary";
 import { BLOG_POSTS } from "@/lib/blog";
 
-const BASE_URL = "https://kamusnias.lovable.app";
+const BASE_URL = "https://kamusnias.or.id";
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
