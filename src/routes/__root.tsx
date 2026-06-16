@@ -138,11 +138,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       { type: "application/ld+json", children: JSON.stringify(orgJsonLd) },
-      {
-        async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4889687234142000",
-        crossOrigin: "anonymous",
-      },
     ],
   }),
   shellComponent: RootShell,
@@ -156,6 +151,12 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="id">
       <head>
         <HeadContent />
+        {/* AdSense Verification Script injected directly into the shell */}
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4889687234142000" 
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body>
         {children}
