@@ -10,7 +10,7 @@ tags: ["dialek bahasa nias", "bahasa nias", "li niha", "dialek nias selatan", "d
 thumbnail: ""
 ---
 
-Ada hal unik antara orang Nias misalnya dari Gunungsitoli berbicara dengan orang dari Teluk Dalam, tetapi keduanya tampak beberapa kali mengulang perkataan? 
+**kamusnias.or.id** - Ada hal unik antara orang Nias misalnya dari Gunungsitoli berbicara dengan orang dari Teluk Dalam, tetapi keduanya tampak beberapa kali mengulang perkataan? 
 
 Padahal mereka sama-sama menggunakan Bahasa Nias (Li Niha).
 
@@ -25,8 +25,11 @@ Inilah alasan mengapa banyak penutur Li Niha lebih nyaman menggunakan dialek dae
 Dalam artikel ini kamu akan mempelajari:
 
 - Lima dialek utama Bahasa Nias dan wilayah persebarannya.
+
 - Perbedaan kosakata, pengucapan, dan struktur bahasa.
+
 - Contoh variasi kata antar dialek.
+
 - Dialek yang paling kompleks dan paling mudah dipelajari.
 
 ## Apa Itu Dialek Bahasa Nias?
@@ -66,12 +69,15 @@ Berdasarkan penelitian Proyek Penelitian Bahasa dan Sastra Indonesia dan Daerah 
 Wilayah utama:
 
 - Alasa
+
 - Lahewa
 
 Karakteristik umum:
 
 - Struktur bahasa lebih sederhana.
+
 - Banyak digunakan sebagai dasar pembelajaran Bahasa Nias.
+
 - Intonasi relatif lebih lembut.
 
 ### 2. Dialek Gunungsitoli
@@ -79,11 +85,13 @@ Karakteristik umum:
 Wilayah utama:
 
 - Kota Gunungsitoli
+
 - Tuhemberua dan sekitarnya
 
 Karakteristik umum:
 
 - Menjadi salah satu dialek yang paling banyak digunakan.
+
 - Memiliki posisi penting karena digunakan di pusat aktivitas pendidikan dan pemerintahan.
 
 Baca Juga : **[Apa itu HOHO Nias?](https://kamusnias.or.id/blog/hoho-nias)**
@@ -93,7 +101,9 @@ Baca Juga : **[Apa itu HOHO Nias?](https://kamusnias.or.id/blog/hoho-nias)**
 Wilayah utama:
 
 - Sirombu
+
 - Mandrehe
+
 - Kepulauan Hinako
 
 Karakteristik umum:
@@ -105,13 +115,17 @@ Karakteristik umum:
 Wilayah utama:
 
 - Gido
+
 - Idanogawo
+
 - Gomo
+
 - Lahusa
 
 Karakteristik umum:
 
 - Menjadi penghubung linguistik antara wilayah utara dan selatan.
+
 - Memiliki sejumlah unsur yang mirip dengan kedua kelompok tersebut.
 
 ### 5. Dialek Selatan (Li Niha Raya)
@@ -119,12 +133,15 @@ Karakteristik umum:
 Wilayah utama:
 
 - Teluk Dalam
+
 - Kepulauan Batu
+
 - Pulau Tello
 
 Karakteristik umum:
 
 - Memiliki struktur tata bahasa yang lebih kompleks.
+
 - Menyimpan banyak kosakata unik yang tidak ditemukan pada dialek lain.
 
 ## Mengapa Ada Sumber yang Menyebut Empat Dialek?
@@ -132,8 +149,11 @@ Karakteristik umum:
 Beberapa penelitian dialektometri modern mengelompokkan Bahasa Nias menjadi empat wilayah dialek utama, seperti:
 
 - Simaluaya (Kepulauan Batu)
+
 - Pasar Teluk Dalam
+
 - Hilimboe
+
 - Nias Utara
 
 Perbedaan ini bukan berarti salah satu klasifikasi keliru. Keduanya menggunakan pendekatan penelitian yang berbeda. Klasifikasi lima dialek lebih umum digunakan untuk pembahasan Bahasa Nias secara luas.
@@ -147,6 +167,7 @@ Perbedaan paling mencolok terlihat antara dialek Utara dan Selatan.
 ### 1. Perbedaan Sistem Konsonan
 
 - Dialek Utara Menggunakan konsonan: **B, C, D, F, G, H, K, L, M, N, P, R, S, T, W, Ŵ, Y, Z**
+
 - Dialek Selatan Menggunakan konsonan: **B, C, D, F, G, H, J, K, L, M, N, P, R, S, T, V, W, Ŵ, Y**
 
 | Dialek Utara | Dialek Selatan |
@@ -163,6 +184,7 @@ Banyak kosakata yang berbeda meskipun maknanya sama. Contoh ungkapan:
 **"Mau ke mana, Kak?"**
 
 - **Dialek Utara:** Hezo numalö', ga'a?
+
 - **Dialek Selatan: **Haega gö möi, ka?
 
 Perbedaan kosakata inilah yang sering menyebabkan penutur dari wilayah berbeda mengalami kesulitan memahami percakapan.
@@ -174,11 +196,13 @@ Salah satu ciri paling khas terdapat pada dialek Selatan.
 #### Dialek Utara
 
 - Tidak memiliki sistem penandaan waktu khusus pada kata ganti orang.
+
 - Waktu dipahami melalui konteks atau keterangan waktu tambahan.
 
 #### Dialek Selatan
 
 - Mengenal penandaan waktu yang lebih jelas.
+
 - Kata ganti orang dapat menunjukkan apakah peristiwa terjadi pada masa lampau, sekarang, atau masa depan.
 
 Akibatnya, tata bahasa dialek Selatan menjadi lebih kompleks dibandingkan dialek lainnya.
@@ -190,11 +214,13 @@ Baca Juga : **[Kenapa bahasa Nias berakhiran huruf vokal?](https://kamusnias.or
 #### Dialek Utara
 
 - Jumlah kata ganti lebih sederhana.
+
 - Tidak menunjukkan informasi waktu.
 
 #### Dialek Selatan
 
 - Memiliki variasi kata ganti yang lebih banyak.
+
 - Dapat menunjukkan hubungan dengan waktu kejadian.
 
 5. Perbedaan Intonasi dan Pelafalan
@@ -218,9 +244,13 @@ Dialek Selatan (Li Niha Raya)
 Banyak ahli bahasa menganggap dialek Selatan sebagai dialek yang paling kompleks karena:
 
 - Memiliki konsonan tambahan seperti J dan V.
+
 - Mengenal sistem penandaan waktu dalam kalimat.
+
 - Memiliki lebih banyak kata ganti orang.
+
 - Struktur morfologi lebih rumit.
+
 - Intonasi lebih kuat dan tegas.
 
 Karena alasan tersebut, penutur dari wilayah lain sering membutuhkan waktu lebih lama untuk memahami dialek Selatan secara penuh.
@@ -232,8 +262,11 @@ Dialek Utara (Li Niha Yöu)
 Bagi pemula, dialek Utara sering dianggap lebih mudah karena:
 
 - Struktur kalimat lebih sederhana.
+
 - Tidak memiliki sistem kata ganti berdasarkan waktu.
+
 - Kosakata lebih umum digunakan.
+
 - Pengucapan relatif lebih mudah diikuti.
 
 Itulah sebabnya banyak materi pembelajaran Bahasa Nias untuk pemula menggunakan dialek Utara sebagai dasar.
@@ -247,9 +280,13 @@ Jika kamu ingin mengetahui dialek yang digunakan seseorang, perhatikan beberapa 
 Cara paling akurat adalah menanyakan asal wilayahnya.
 
 - Alasa atau Lahewa → Dialek Utara
+
 - Gunungsitoli → Dialek Gunungsitoli
+
 - Sirombu atau Mandrehe → Dialek Barat
+
 - Gido atau Gomo → Dialek Tengah
+
 - Teluk Dalam atau Kepulauan Batu → Dialek Selatan
 
 ### 2. Perhatikan Kata Ganti Orang
@@ -259,6 +296,7 @@ Jika kata ganti yang digunakan berkaitan dengan waktu kejadian, kemungkinan besa
 ### 3. Dengarkan Intonasinya
 
 - Nada lebih tinggi dan tegas → cenderung dialek Selatan.
+
 - Nada lebih lembut → cenderung dialek Utara atau Gunungsitoli.
 
 ## Kesimpulan
