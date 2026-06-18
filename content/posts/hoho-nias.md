@@ -10,7 +10,7 @@ tags: []
 thumbnail: ""
 ---
 
-Hoho adalah syair-syair tradisional masyarakat Nias yang dilantunkan dalam berbagai upacara adat. 
+kamusnias.or.id - Hoho adalah syair-syair tradisional masyarakat Nias yang dilantunkan dalam berbagai upacara adat. 
 
 Dibawakan oleh imam tradisional (ere) dengan suara khas, hoho berisi mitos, sejarah, hukum adat, dan nilai-nilai kehidupan. 
 
@@ -41,9 +41,13 @@ Karena diwariskan secara lisan, kemampuan melantunkan hoho dianggap sebagai keah
 Beberapa ciri khas hoho antara lain:
 
 - Disampaikan secara lisan tanpa naskah tertulis.
+
 - Menggunakan bahasa adat atau bahasa Nias yang puitis.
+
 - Memiliki irama dan pola pelafalan tertentu.
+
 - Dibawakan dalam acara adat dan ritual budaya.
+
 - Berisi sejarah, nasihat, atau penghormatan.
 
 Untuk memahaminya kamu bisa membaca **[struktur bahasa nias](https://kamusnias.or.id/blog/struktur-bahasa-nias)** yang digunakan dalam hoho. 
@@ -71,8 +75,11 @@ Sebelum masyarakat mengenal pencatatan modern, informasi tersebut diwariskan mel
 Fungsi lain hoho adalah sebagai sarana pendidikan budaya. Pesan yang disampaikan biasanya berkaitan dengan:
 
 - Menghormati orang tua.
+
 - Menjaga nama baik keluarga.
+
 - Menjunjung adat istiadat.
+
 - Menumbuhkan rasa persaudaraan.
 
 Melalui syair adat Nias, nilai-nilai tersebut lebih mudah diingat karena disampaikan dalam bentuk yang indah dan berirama.
@@ -112,7 +119,9 @@ Karena itu, memahami dasar-dasar bahasa Nias akan sangat membantu.
 Kamu bisa memulai dengan mempelajari:
 
 - Kosakata dasar.
+
 - Struktur kalimat.
+
 - Makna budaya dalam bahasa Nias.
 
 Untuk membantu proses belajar, kamu dapat menggunakan [kamus Nias](https://kamusnias.or.id/) online ini.
