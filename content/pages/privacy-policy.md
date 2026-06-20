@@ -2,7 +2,7 @@
 slug: "privacy-policy"
 title: "Privacy Policy (Kebijakan Privasi)"
 description: "Kebijakan privasi bagaimana kami melindungi, membiasakan transparansi data, dan informasi diri pada platform Kamus Nias."
-updatedAt: "2024-05-20"
+updatedAt: "2026-06-20"
 ---
 
 ## Pengantar Privasi dan Keamanan Kamus Nias
