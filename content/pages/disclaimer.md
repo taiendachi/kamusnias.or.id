@@ -2,7 +2,7 @@
 slug: "disclaimer"
 title: "Disclaimer (Sanggahan)"
 description: "Pernyataan sanggahan penting mengenai penggunaan informasi, layanan, dan materi terjemahan di Kamus Nias."
-updatedAt: "2024-05-20"
+updatedAt: "2026-06-20"
 ---
 
 ## Sanggahan Umum tentang Layanan Kamus Nias
