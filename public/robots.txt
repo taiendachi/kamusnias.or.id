@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kamusnias.lovable.app/sitemap.xml
+Sitemap: https://kamusnias.or.id/sitemap.xml
