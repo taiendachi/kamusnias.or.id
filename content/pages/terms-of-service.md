@@ -2,7 +2,7 @@
 slug: "terms-of-service"
 title: "Terms of Service (Ketentuan Layanan)"
 description: "Aturan hukum, batasan pertanggungjawaban, dan ketentuan layanan pemakaian fasilitas di dalam dan di luar lingkup platform Kamus Nias."
-updatedAt: "2024-05-20"
+updatedAt: "2026-06-20"
 ---
 
 Selamat datang di **Kamus Nias**.
