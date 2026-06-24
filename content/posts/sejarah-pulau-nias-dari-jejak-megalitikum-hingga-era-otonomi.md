@@ -10,7 +10,7 @@ tags: ["sejarah pulau nias", "asal usul suku nias", "sejarah ono niha", "peningg
 thumbnail: ""
 ---
 
-Jejak manusia di Nias bermula 12.000 tahun lalu di Gua Tögi Ndrawa sebelum hegemoni etnis Ono Niha mengambil alih penguasaan pulau. 
+**kamusnias.or.id** - Jejak manusia di Nias bermula 12.000 tahun lalu di Gua Tögi Ndrawa sebelum hegemoni etnis Ono Niha mengambil alih penguasaan pulau. 
 
 Wilayah ini melewati fase transisi ekstrem mulai dari eksploitasi perdagangan manusia oleh elite lokal, represi tata ruang kolonial Belanda, hingga guncangan tektonik hebat pada 2005. 
 
