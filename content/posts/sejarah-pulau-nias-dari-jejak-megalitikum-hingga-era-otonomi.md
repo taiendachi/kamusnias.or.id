@@ -5,7 +5,7 @@ date: "2026-06-24T04:48:58.086Z"
 author: "Tim Redaksi"
 description: "Sejarah Pulau Nias merekam 12.000 tahun taktik adaptasi peradaban maritim. Mulai dari mesin ekonomi perang kelas elite hingga rekonstruksi desentralisasi modern pasca bencana."
 ai_overview: ""
-category: ""
+category: "Blog"
 tags: ["sejarah pulau nias", "asal usul suku nias", "sejarah ono niha", "peninggalan sejarah nias", "penjajahan belanda di nias", "sejarah gua togi ndrawa", "sejarah megalitikum nias"]
 thumbnail: ""
 ---
