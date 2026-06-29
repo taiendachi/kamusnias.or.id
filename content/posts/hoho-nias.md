@@ -6,7 +6,7 @@ author: "Tim Redaksi"
 description: "Hoho Nias adalah nyanyian rakyat dan tradisi lisan Nias yang menyimpan sejarah, adat, serta nilai budaya masyarakat Pulau Nias."
 ai_overview: ""
 category: "Blog"
-tags: []
+tags: ["Hoho Nias", "Tradisi Lisan Nias", "Nyanyian Adat Nias", "Budaya Ono Niha", "Sastra Lisan Nias", "Kesenian Tradisional Nias", "Warisan Budaya Nias"]
 thumbnail: ""
 ---
 
