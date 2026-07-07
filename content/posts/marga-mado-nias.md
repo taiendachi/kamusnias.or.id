@@ -7,7 +7,7 @@ description: "Sedang menelusuri silsilah keluarga? Cek daftar lengkap 204 marga 
 ai_overview: ""
 category: "Blog"
 tags: ["marga Nias", "mado Nias", "daftar marga Nias lengkap", "sejarah suku Nias", "leluhur Nias", "Ono Niha", "asal usul suku Nias", "kamus marga nias", "silsilah keturunan nias", "marga nias a-z", "budaya nias", "5 leluhur nias", "silsilah keluarga nias", "sejarah ono niha"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib_Zwe_Hx2aJQv00cI-VFqkevfofAqwkikRn9BwPqi1tfDZcz4VUjHTSc1ycfJttTVjhyphenhyphentXszbJsbugPeXw6xESbeDYV3O67zCR8qIr_jKDYUAkODvoYdvo8I2M3yDU6oaoqzbWsvInloJXNwn2-V_uIeB1ANzkOYK4F7xrpjPvQa1g8fo825J49G5Reo/s1280/Marga%20(Mado)%20Nias%20Lengkap.png"
 ---
 
 **kamusnias.or.id** - Masyarakat suku Nias atau yang lebih akrab disebut Ono Niha, memiliki kebanggaan yang luar biasa terhadap garis keturunan mereka. 
