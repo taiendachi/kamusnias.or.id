@@ -7,7 +7,7 @@ description: "Hoho Nias adalah nyanyian rakyat dan tradisi lisan Nias yang menyi
 ai_overview: ""
 category: "Blog"
 tags: ["Hoho Nias", "Tradisi Lisan Nias", "Nyanyian Adat Nias", "Budaya Ono Niha", "Sastra Lisan Nias", "Kesenian Tradisional Nias", "Warisan Budaya Nias"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUFWoQ1Iqu1nDKFwqUvOo3tecXFDY2rQx9-6OT1nU3sPX-dbW85-HUexjb-DWOP6mpQL9Nbia28bP2o6xCbTuYkPZiu0-TYxyyW6ja6VAZZCqY80__Ae6p2aLWjP7dwBbE-Lf15KkUru9jyS7_GO5uGSEwleL6I0xQotVhXnqdjQ61IydYHHJhifyhRDo/s1280/Apa%20Itu%20Hoho%20Nias.png"
 ---
 
 kamusnias.or.id - Hoho adalah syair-syair tradisional masyarakat Nias yang dilantunkan dalam berbagai upacara adat. 
