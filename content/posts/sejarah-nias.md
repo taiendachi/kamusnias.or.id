@@ -7,7 +7,7 @@ description: "Sejarah Pulau Nias merekam 12.000 tahun taktik adaptasi peradaban 
 ai_overview: ""
 category: "Blog"
 tags: ["sejarah pulau nias", "asal usul suku nias", "sejarah ono niha", "peninggalan sejarah nias", "penjajahan belanda di nias", "sejarah gua togi ndrawa", "sejarah megalitikum nias"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB_R4kKB92ZlnH25jGHupHwr8JdV_BIm3ttBQ007efQAERERvbdJTJaLY7AheUyMvm4O9SohGsUCpFiAp-cDHdyo16XOvgQRtPUqOYHlFqfnq8so0MlIWfEyrj_UcDBbn3LYcih9AaQB9nap_3fgo9mc1QgFhhBl6zgaFPS3oMf_paOdUj6hx9ynDRHyE/s1280/Sejarah%20Pulau%20Nias.png"
 ---
 
 **kamusnias.or.id** - Jejak manusia di Nias bermula 12.000 tahun lalu di Gua Tögi Ndrawa sebelum hegemoni etnis Ono Niha mengambil alih penguasaan pulau. 
