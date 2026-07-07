@@ -7,7 +7,7 @@ description: "Analisis objektif mengenai kelayakan Provinsi Kepulauan Nias berda
 ai_overview: ""
 category: "Blog"
 tags: ["provinsi kepulauan nias", "nias jadi provinsi", "pemekaran nias", "sda nias", "sdm nias", "potensi kepulauan nias", "ekonomi nias", "pariwisata nias", "pantai sorake", "moratorium pemekaran daerah", "pembangunan nias", "provinsi baru indonesia", "otonomi daerah", "sumber daya alam nias", "sumber daya manusia nias"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3P1C2ZbTAGQVySWxa9khlyX3UM1PJJJSFs0idAbCMHtcFRY6BNYjZRXI5atOcfndgsTM5UoAu62N8NGvB7hyLA-CgZpH1FFgQtKihW1qtkTYOMzaqlpWJ_oZwAeQBWyHv2eE1nP0YZIe2H4lqRg6NCtApvYyQLehZfhxRP5FDSANOpoIzwjSCtYEryZo/s1280/Apakah%20Provinsi%20Kepulauan%20Nias%20Sudah%20Layak.png"
 ---
 
 Selama bertahun-tahun, diskusi mengenai pembentukan Provinsi Kepulauan Nias selalu berkutat pada satu pertanyaan klasik: apakah Nias sudah benar-benar layak menjadi provinsi tersendiri?
