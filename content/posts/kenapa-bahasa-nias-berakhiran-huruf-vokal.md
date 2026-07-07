@@ -7,7 +7,7 @@ description: "Kenapa bahasa Nias berakhiran huruf vokal? Pelajari penyebabnya da
 ai_overview: ""
 category: "Blog"
 tags: ["kenapa bahasa nias berakhiran huruf vokal", "bahasa nias", "bahasa nias berakhiran vokal", "ciri bahasa nias", "fonologi bahasa nias", "sejarah bahasa nias", "bahasa austronesia", "open syllable language", "kosakata bahasa nias", "fakta bahasa nias", "linguistik bahasa nias", "keunikan bahasa nias", "tata bahasa nias", "budaya nias", "belajar bahasa nias"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUqoLHRuOo9m_Sd2JwJctmZ8DUtOLXloMw8oVvSQVx5vV9YNPgTW0Omk2ENGrTSjIUL3x0SoTgudRceiZak5Rb3bJ9jZQf2v0Qk09gQxKwD0NatvJmxpVMtsexDLH08H5RHDA5l9T_-1vGgmMGEus5o5vpPZc2e4TL01vcQ-k7zT6nYxAArVLsTr3mK3k/s1280/Mengapa%20Kata%20Bahasa%20Nias%20Berakhiran%20Huruf%20Vokal.png"
 ---
 
 **kamusnias.or.id** - Kenapa bahasa Nias berakhiran huruf vokal? Pertanyaan ini sering muncul ketika seseorang mulai mempelajari kosakata bahasa Nias. 
