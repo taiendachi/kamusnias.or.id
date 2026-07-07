@@ -7,7 +7,7 @@ description: "Dialek Bahasa Nias punya 5 variasi: Utara, Gunungsitoli, Barat, Te
 ai_overview: ""
 category: "Blog"
 tags: ["dialek bahasa nias", "bahasa nias", "li niha", "dialek nias selatan", "dialek nias utara", "perbedaan dialek bahasa nias", "belajar bahasa nias"]
-thumbnail: ""
+thumbnail: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE9jx_tMJPVntBEEyfaX1fSI5qeJquHBb88ytyrze4_4rBBkvcTBkmoqnFcSEopi-DVeqj9C92B7tWP9OLiK4sFlgwmvggheAOpP6bhwqmI1hxjdfT5lUKCGibF3WHkSBkXKEowIBSlHCvVSxWK6JvzkSbFApKQ1mBGg7hg4aq9wgWOyX0dm6eBl2uh_4/s1280/Dialek%20Bahasa%20Nias%20Berbeda%20Bisa%20Sulit%20Saling%20Memahami.png"
 ---
 
 **kamusnias.or.id** - Ada hal unik antara orang Nias misalnya dari Gunungsitoli berbicara dengan orang dari Teluk Dalam, tetapi keduanya tampak beberapa kali mengulang perkataan? 
